@@ -13,3 +13,31 @@ li
 {
 	margin-left: 20px;
 }
+.topnav
+{
+	overflow: hidden;
+	background-color: cyan;
+}
+.topnav a
+{
+	float: left;
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 15px 20px;
+	text-decoration: none;
+}
+.topnav a:hover
+{
+	background-color: white;
+	color:black;
+}
+.topnav a:active
+{
+	background: red;
+	color: white;
+}
+.topnav .icon
+{
+	display: none;
+}
