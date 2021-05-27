@@ -1,15 +1,19 @@
 html
 {
 	background-color: white;
-	font-size: 20px;
+	font-size: 20px
 }
 ul
 {
 	background: cyan;
 	padding: 10px;
-	border: 1px solid black;
 }
 li
 {
 	margin-left: 20px;
+}
+ol
+{
+	background: cyan;
+	padding: 10px;
 }
