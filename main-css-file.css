@@ -22,7 +22,7 @@ li
 {
 	float: left;
 	display: block;
-	color: white;
+	color: black;
 	text-align: center;
 	padding: 15px 20px;
 	text-decoration: none;
@@ -32,7 +32,7 @@ li
 	background-color: white;
 	color:black;
 }
-.topnav a:active
+.topnav a.active
 {
 	background-color: red;
 	color: white;
