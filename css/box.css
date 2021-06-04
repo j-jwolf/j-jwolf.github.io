@@ -1,6 +1,8 @@
-.homepage-font
+div.body
 {
+	background-color: darkslategray;
 	color: black;
+	margin-top: 140px;
 }
 div.background
 {
@@ -8,6 +10,5 @@ div.background
 	filter: blur(2px);
 	-webkit-filter: blur(2px);
 	opacity: 0.5;
-	height: 50%;
+	height: 100%;
 }
-

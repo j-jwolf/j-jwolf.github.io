@@ -12,3 +12,8 @@ li
 {
 	margin-left: 20px;
 }
+div.body
+{
+	background-color: darkslategray;
+	color: black;
+}
