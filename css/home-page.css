@@ -1,0 +1,13 @@
+.homepage-font
+{
+	color: white;
+}
+div.background
+{
+	background: url("../assets/home-background.png") no-repeat;
+	filter: blur(2px);
+	-webkit-filter: blur(2px);
+	opacity: 0.5;
+	height: 50%;
+}
+
