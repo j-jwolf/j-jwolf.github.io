@@ -1,7 +1,7 @@
 .topnav
 {
 	overflow: hidden;
-	background-color: cyan;
+	background-color: darkslategray;
 }
 .topnav a
 {
@@ -19,7 +19,7 @@
 }
 .topnav a.active
 {
-	background-color: red;
+	background-color: brown;
 	color: white;
 }
 .topnav .icon
