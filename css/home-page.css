@@ -10,4 +10,8 @@ div.background
 	opacity: 0.5;
 	height: 50%;
 }
-
+div.rss-background
+{
+	background-color: darkslategray;
+	color: white;
+}
