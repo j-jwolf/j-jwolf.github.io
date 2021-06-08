@@ -1,10 +1,10 @@
 ul
 {
-	background: slategray;
 	padding: 10px;
 }
 div.main-ul
 {
+	background: slategray;
 	padding: 10px;
 	border: 2px solid darkslategray;
 }
