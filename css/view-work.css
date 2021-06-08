@@ -13,3 +13,9 @@ div.body
 	background-color: slategray;
 	color: black;
 }
+h1
+{
+	background-color: darkslategray;
+	color: white;
+	border: 2px solid brown;
+}
