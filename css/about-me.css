@@ -1,11 +1,12 @@
 ul
 {
-	background: darkslategray;
+	background: slategray;
 	padding: 10px;
 }
 div.main-ul
 {
-	padding: 10px solid black;
+	padding: 10px;
+	border: 2px solid darkslategray;
 }
 li
 {

@@ -1,12 +1,8 @@
-ul
+ul, ol
 {
-	background: darkslategray;
+	background: slategray;
 	padding: 10px;
-}
-ol
-{
-	background: darkslategray;
-	padding: 10px;
+	border: 2px solid darkslategray;
 }
 li
 {
@@ -14,6 +10,6 @@ li
 }
 div.body
 {
-	background-color: darkslategray;
+	background-color: slategray;
 	color: black;
 }
