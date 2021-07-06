@@ -49,15 +49,15 @@ div.clock
 .clock
 {
 	position: absolute;
-	left: 0;
-	right: 0;
-	padding: 15px;
-	height: 100px;
+	width: 100%;
+	text-align: center;
+	padding: 10px;
 	background-size: 100%;
-	transform: translateX(-50%) translateY(-50%);
+	/*transform: translateX(-50%) translateY(-50%);*/
 	color: white;
 	font-size: 50px;
 	letter-spacing: 5px;
+	overflow: hidden;
 }
 body, html
 {
@@ -72,4 +72,10 @@ div.body
 li
 {
 	margin-left: 20px;
+}
+footer
+{
+	background-color: darkslategray;
+	padding: 10px;
+	border: 2px solid brown;
 }
