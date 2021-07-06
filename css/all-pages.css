@@ -35,3 +35,13 @@ body, html
 {
 	height: 100%;
 }
+div.body
+{
+	background-color: slategray;
+	padding: 10px;
+	border: 2px solid darkslategray;
+}
+li
+{
+	margin-left: 20px;
+}

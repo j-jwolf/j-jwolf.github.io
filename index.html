@@ -1,38 +1,61 @@
-<html lang="en">
+<html lang="en-US">
 	<head>
 		<meta charset="utf-8">
 		<meta name="author" content="John Wolf">
 		<meta name="description" content="Website containing the programming portfolio of and links to works by John Wolf">
-		<title>Portfolio</title>
+		<title>John Wolf's Portfolio</title>
+		<!-- <link rel="icon" href="favicon.ico" type="image/x-icon"> -->
 		<link rel="stylesheet" href="css/all-pages.css">
-		<link rel="stylesheet" href="css/home-page.css">
+		<script src="clock.js" defer></script>
 	</head>
 	<body>
 		<div class="topnav" id="myNav">
-			<a href="j-jwolf.github.io/index" class="active">Home</a>
+			<a href="https://j-jwolf.github.io/index" class="active">Home</a>
 			<a href="https://j-jwolf.github.io/pages/view-my-work">My Work</a>
-			<a href="https://j-jwolf.github.io/pages/contact">Contact Me</a>
-			<a href="https://j-jwolf.github.io/pages/about-me">About Me</a>
 		</div>
-		<div class="background"></div>
-		<div class="row">
-			<div class="column">
-				<div class="rss-background">
-					<h1 class="homepage-font">Welcome to the portfolio website of John Wolf</h1>
-					<p class="homepage-font">
-						Here you can find a collection of my projects both large and small<br>
-						You can also find information about me, including my contact information
-					</p>
-					<div class="background"></div>
+		<div id="clock-display" class="clock" onload="showTime()"></div>
+		<div class="body">
+			<div class="row">
+				<div class="column">
+					<div class="rss-background">
+						<h1 class="homepage-font">Welcome to the portfolio website of John Wolf</h1>
+						<p class="homepage-font">
+							<!-- -->
+							I am a senior at North Central College studying computer science.<br>
+						</p>
+						<h2>My interests in the field</h2>
+						<ul>
+							<!-- -->
+							<li>Computational Theory</li>
+							<li>Algorithm Design</li>
+							<li>Complexity Theory</li>
+						</ul>
+						<h2>Languages I'm proficient in</h2>
+						<ol>
+							<!-- -->
+							<li>C++</li>
+							<li>C</li>
+							<li>Python</li>
+							<li>Java</li>
+						</ol>
+					</div>
 				</div>
-			</div>
-			<div class="column">
-				<div class="rss-background">
-					<h1 class="homepage-font">Read the latest computer science news</h1>
-					<h2 class="homepage-font">Provided by <a href="https://news.mit.edu/topic/computers">MIT</a> and converted by <a href="https://rss.bloople.net">Bloople</a></h2>
-					<script src="//rss.bloople.net/?url=https%3A%2F%2Fnews.mit.edu%2Frss%2Ftopic%2Fcomputers&limit=5&showtitle=false&type=js"></script>
+				<div class="column">
+					<div class="rss-background">
+						<h1 class="homepage-font">Read the latest computer science news</h1>
+						<h2 class="homepage-font">Provided by <a href="https://news.mit.edu/topic/computers">MIT</a> and converted by <a href="https://rss.bloople.net">Bloople</a></h2>
+						<script src="//rss.bloople.net/?url=https%3A%2F%2Fnews.mit.edu%2Frss%2Ftopic%2Fcomputers&limit=5&showtitle=false&type=js"></script>
+					</div>
 				</div>
 			</div>
 		</div>
 	</body>
+	<footer>
+		<p>
+			Contact me: <a href="mailto:jjwolf0330@tutanota.com">jjwolf0330@tutanota.com</a><br>
+			Alternate: <a href="mailto:jwolf0330@icloud.com">jwolf0330@icloud.com</a><br>
+			My <a href="https://www.linkedin.com/in/john-wolf-962478114/">LinkedIn</a> page
+		</p>
+		<!-- -->
+	</footer>
 </html>
