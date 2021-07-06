@@ -49,8 +49,11 @@ div.clock
 .clock
 {
 	position: absolute;
-	top: 50%;
-	left: 50%;
+	left: 0;
+	right: 0;
+	padding: 15px;
+	height: 100px;
+	background-size: 100%;
 	transform: translateX(-50%) translateY(-50%);
 	color: white;
 	font-size: 50px;
