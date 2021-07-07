@@ -6,6 +6,17 @@
 		<link rel="stylesheet" href="../css/all-pages.css">
 		<script src="../js/clock.js" defer></script>
 		<script src="../js/apod.js" defer></script>
+		<style>
+			.center-text
+			{
+				text-align: center;
+			}
+			iframe, img
+			{
+				display: block;
+				margin: auto;
+			}
+		</style>
 	</head>
 	<body>
 		<!-- -->
@@ -17,10 +28,10 @@
 			<a href="https://j-jwolf.github.io/pages/nasa-apod" class="active">NASA's APOD</a>
 		</div>
 		<div class="body">
-			<h1>Astronomy Picture of the Day</h1>
-			<h2>Provided by <a href="https://apod.nasa.gov/astropix.html">NASA</a></h2>
-			<h5 id="copyright"></h5>
-			<p id="apod" class="img-size"></p>
+			<h1 class="center-text">Astronomy Picture of the Day</h1>
+			<h2 class="center-text">Provided by <a href="https://apod.nasa.gov/astropix.html">NASA</a></h2>
+			<h5 class="center-text" id="copyright"></h5>
+			<p id="apod"></p>
 		</div>
 	</body>
 	<footer>
