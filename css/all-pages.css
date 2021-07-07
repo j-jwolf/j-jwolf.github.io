@@ -52,7 +52,8 @@ div.clock
 	width: 100%;
 	text-align: center;
 	background-size: 100%;
-	/*transform: translateX(-50%) translateY(-50%);*/
+	padding: 10px;
+	transform: translateX(-11px) translateY(15px);
 	color: white;
 	font-size: 50px;
 	letter-spacing: 5px;
