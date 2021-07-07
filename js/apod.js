@@ -1,7 +1,7 @@
 function getAPOD()
 {
 	let xhr = new XMLHttpRequest();
-	xhr.open("GET", "https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY");
+	xhr.open("GET", "https://api.nasa.gov/planetary/apod?api_key=4Ec06I7uXQNCgkf3zKc8vgrvd2W9CXdD3ejwCC08");
 	xhr.responseType = "json";
 	xhr.send();
 	xhr.onload = function()
