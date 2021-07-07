@@ -1,0 +1,41 @@
+<html lang="en-US">
+	<head>
+		<meta charset="utf-8">
+		<meta name="author" content="John Wolf">
+		<meta name="description" content="A page containing a sample database by the author">
+		<title>Database Example</title>
+		<link rel="stylesheet" href="../css/all-pages.css">
+		<script src="../js/clock.js" defer>
+	</head>
+	<body>
+		<!-- -->
+		<div class="topnav" id="myNav">
+			<!-- -->
+			<a href="https://j-jwolf.github.io/index">Home</a>
+			<a href="https://j-jwolf.github.io/pages/view-my-work">My Work</a>
+			<a href="https://j-jwolf.github.io/pages/gaidhlig">Scottish Gaelic Page</a>
+			<a href="https://jwolf.github.io./pages/database-test" class="active">Sample Database</a>
+		</div>
+		<div class="body">
+			<!-- -->
+			<?php
+				$server = 'localhost';
+				$username = 'guest1';
+				$password = 'password';
+				$conn = mysql_connect($server, $username, $password);
+				if(!$conn) {die('Could not connect: ' . mysql_error());}
+				echo 'Connection established';
+				mysql_close($conn);
+			?>
+		</div>
+	</body>
+	<footer>
+		<!-- -->
+		<p>
+			Contact me: <a href="mailto:jjwolf0330@tutanota.com">jjwolf0330@tutanota.com</a><br>
+			Alternate: <a href="mailto:jwolf0330@icloud.com">jwolf0330@icloud.com</a><br>
+			My <a href="https://linkedin.com/in/john-wolf-962478114/">LinkedIn</a> page
+		</p>
+		<div id="clock-display" class="clock" onload="showTime()"></div>
+	</footer>
+</html>
